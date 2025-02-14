@@ -1,5 +1,5 @@
 const os = require('os');
-const { version } = require('../package.json');
+const { version: dv } = require('discord.js'); 
 
 module.exports = {
     name: 'stats',
@@ -19,7 +19,7 @@ Ping: ${bot.ws.ping} ms
 Versions
 ----------------------
 Node.js: ${process.version}
-Discord.js: ${version}
+Discord.js: ${dv}  // Use the version from discord.js
 Operating system: ${os.type()} ${os.release()} (${os.arch()})
 
 System
@@ -34,4 +34,4 @@ Uptime: ${uptime}
 
         await interaction.reply({ content: msg });
     }
-}
+};
