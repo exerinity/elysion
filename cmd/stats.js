@@ -15,6 +15,7 @@ General info
 Commands: ${bot.cmds.size}
 Owner: @exerinity
 Ping: ${bot.ws.ping} ms
+Servers: ${bot.guilds.cache.size}
 
 Versions
 ----------------------
