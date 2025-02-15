@@ -20,7 +20,7 @@ Servers: ${bot.guilds.cache.size}
 Versions
 ----------------------
 Node.js: ${process.version}
-Discord.js: ${dv}  // Use the version from discord.js
+Discord.js: ${dv}
 Operating system: ${os.type()} ${os.release()} (${os.arch()})
 
 System
