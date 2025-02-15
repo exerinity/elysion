@@ -8,7 +8,7 @@ Elysion is an extremely simple bot by exerinity. It is virtually the simpler cou
 Cool stuff:
 - No embeds
 - Very lightweight
-- Open source, and public domain (This is the official build by the developer)
+- Open source (This is the official build by the developer)
 - No data collection AT ALL.
 
 Not so cool stuff:
